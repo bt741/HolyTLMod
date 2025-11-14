@@ -17,10 +17,7 @@
 	"entrypoints": {
 		"main": [
 			"be.breroeluean.HolyTLMod"
-		],
-        "client": [
-            "be.breroeluean.HolyTLModClient"
-        ]
+		]
 	},
 	"mixins": [
 		"holytlmod.mixins.json"
