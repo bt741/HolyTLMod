@@ -21,12 +21,11 @@ repositories {
 }
 
 loom {
-	splitEnvironmentSourceSets()
+	// splitEnvironmentSourceSets()
 
 	mods {
 		"holytlmod" {
 			sourceSet sourceSets.main
-			sourceSet sourceSets.client
 		}
 	}
 
