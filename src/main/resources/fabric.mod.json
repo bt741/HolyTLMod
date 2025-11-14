@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "holytlmod",
+	"version": "${version}",
+	"name": "HolyTLMod",
+	"description": "Send your current location in the chat",
+	"authors": [
+		"breroeluean"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/bt741/holytlmod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/holytlmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"be.breroeluean.HolyTLMod"
+		],
+        "client": [
+            "be.breroeluean.HolyTLModClient"
+        ]
+	},
+	"mixins": [
+		"holytlmod.mixins.json"
+	],
+    "depends": {
+      "fabricloader": ">=0.17.0",
+      "minecraft": "~1.21.4",
+      "java": ">=21",
+      "fabric-api": "*"
+    },
+    "suggests": {
+      "another-mod": "*"
+    }
+}
